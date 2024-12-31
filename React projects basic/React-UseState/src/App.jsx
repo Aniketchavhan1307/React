@@ -9,6 +9,9 @@ import Count from './components/count.jsx'
 function App() {
   const[count, setCount] = useState(0);
 
+  
+
+
   return (
     
    <div className='container'>
@@ -16,10 +19,9 @@ function App() {
     <button className='btn' onClick={() =>setCount(count+1)} >Click me</button>
    
    <div>
-    <Count name="Aniket">
+    <Count >
     <h1 className='title'>Aniket Chavhan</h1>
     <p className='description'>I am a software engineer.</p>
-
     </Count>
    </div>
    </div>
